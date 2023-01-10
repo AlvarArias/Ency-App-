@@ -111,12 +111,14 @@ Here the user displays the total value (Subtotal - discount) of the proposal.
 
 ![productscopy](https://user-images.githubusercontent.com/7523384/211531394-49165872-8c8e-4df2-a25a-3efcf8882fc7.png)
 
-### 3.6 Save Energy Calculatio
+### 3.6 Save Energy Calculation
 This screen calculates the proposal that will be sent to the client, this must be confirmed by the executive and then it is saved. Contains 3 sections:
 
 - Building
 - Calculation
 - Economy 
+
+![EnergyScreen copy](https://user-images.githubusercontent.com/7523384/211532887-c842126a-52cd-4089-a1cb-bbca5f313e44.png)
 
 ### 3.6.1 Building
 Here the user enters the information of the building that will be part of the calculation of energy savings of the proposal.
