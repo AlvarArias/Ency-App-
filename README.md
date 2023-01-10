@@ -85,7 +85,7 @@ Here the user can see the plan of the building that will be part of the proposal
 - Edit : Here the user can edit the building plan, must set the scale factor “Set factor”, can add a distance measurement, rotate and record the image.
 - Add product : Here the user can add products to the building plan.
 
-![Set Factor copy](https://user-images.githubusercontent.com/7523384/211530375-e15cb0e3-5948-4d9e-9ab7-05ae73d64db6.png)
+![Set Factor copy](https://user-images.githubusercontent.com/7523384/211532014-88fea545-8908-499a-a266-8f85aaa0b494.png)
 
 ## Proposal generation
 
@@ -124,6 +124,7 @@ Here the user enters the energy consumption of the property and obtains the ener
 
 ### 3.6.3 Economy 
 Here the user visualizes the energy savings valued in Swedish kronor (SEK) and confirms the value of the proposal.
+![productscopy](https://user-images.githubusercontent.com/7523384/211531394-49165872-8c8e-4df2-a25a-3efcf8882fc7.png)
 
 ### 3.7 Save Energy Calculation
 This screen shows the user the proposal that will be sent to the client (Scroll the document). Contains 3 buttons:
@@ -132,8 +133,13 @@ This screen shows the user the proposal that will be sent to the client (Scroll 
 - Save energy
 - Save to Zoho 
 
+![PDF Preview copy](https://user-images.githubusercontent.com/7523384/211531442-0bd27f8e-d457-4745-907a-25b8426e8383.png)
+
+
 ### 3.8 Settings
 This screen displays the user's information and allows it to be edited on the form.
+
+![SharePDF copy](https://user-images.githubusercontent.com/7523384/211531448-26eb5d0e-e792-4eb1-8ebb-5590b6c61f65.png)
 
 
 
