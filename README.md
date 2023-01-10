@@ -53,7 +53,90 @@ To read data in Google Sheets , the app makes a GET API call to the servicehttps
 
 <img src="https://user-images.githubusercontent.com/7523384/211507440-8059a93c-cf56-4b0d-8d16-dac62d3479f3.png" alt="drawing" width="400"/>
 
-- Customer Information
-- Graphic component
-- Proposal generation
+3 Application screens:
+
+## Customer Information
+
+### 3.1 Customers
+This screen shows the customer information that is going to be completed by the executive.
+
+It contains 3 important sections: Customer Information Form, BD customer information and New Customers.
+
+### 3.2 Construction Information (Byggnad)
+
+This screen shows the information of the client's property, this must be completed by the executive.
+Here the user registers the information of the client's property, filling in each one of the fields.
+
+### 3.3 Customer problem information (Kunder problem)
+
+This screen shows the information of the client's problems, this must be completed by the executive.
+Here the user registers the information of the problems of the property, filling each one of the fields.
+
+## Graphic component
+
+### 3.4 Drawings
+This screen displays the plan of the building associated with the proposal, allows you to add products, edit and save the image, and view customer information.
+
+### 3.4.1 Drawing
+Here the user can see the plan of the building that will be part of the proposal.
+
+### 3.4.2 Customer information
+- Customer information.
+- Edit : Here the user can edit the building plan, must set the scale factor “Set factor”, can add a distance measurement, rotate and record the image.
+- Add product : Here the user can add products to the building plan.
+
+## Proposal generation
+
+### 3.5 Products
+This screen calculates the proposal that will be sent to the client, this must be confirmed by the executive and then it is saved. Contains 4 sections:
+
+- Product List
+- Proposal Cost
+- Discount and notes 
+- Proposal total
+
+### 3.5.1 Product List
+Here the user selects the products that will be part of the costs of the proposal.
+
+### 3.5.2 Proposal Cost
+Here the user views the complete list of products and obtains the subtotal of the proposal.
+
+### 3.5.3 Discount and notes 
+Here the user can add to the proposal: a discount, terms, notes, hide the detailed list of the values ​​of each product and confirm the final value of the proposal.
+
+### 3.5.4 Proposal total
+Here the user displays the total value (Subtotal - discount) of the proposal.
+
+### 3.6 Save Energy Calculatio
+This screen calculates the proposal that will be sent to the client, this must be confirmed by the executive and then it is saved. Contains 3 sections:
+
+- Building
+- Calculation
+- Economy 
+
+### 3.6.1 Building
+Here the user enters the information of the building that will be part of the calculation of energy savings of the proposal.
+
+### 3.6.2 Calculation
+Here the user enters the energy consumption of the property and obtains the energy savings of the proposal.
+
+### 3.6.3 Economy 
+Here the user visualizes the energy savings valued in Swedish kronor (SEK) and confirms the value of the proposal.
+
+### 3.7 Save Energy Calculation
+This screen shows the user the proposal that will be sent to the client (Scroll the document). Contains 3 buttons:
+
+- Save PDF
+- Save energy
+- Save to Zoho 
+
+### 3.8 Settings
+This screen displays the user's information and allows it to be edited on the form.
+
+
+
+
+
+
+
 
