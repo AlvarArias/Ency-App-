@@ -63,7 +63,6 @@ struct EnergyView: View {
         return String(Int(theCalcEfficFactor))
     }
     
-    // Calcula ahorro en 30 år
     var newLet30 : String {
         
         let ret302 = (Int(energySavingMoney()) ) * 30
@@ -81,30 +80,11 @@ struct EnergyView: View {
         //  return String(timeRet2)
         return String(format: "%.1f" ,timeRet2)
     }
-    
-    
-    
-    
-    
+        
     var body: some View {
         Form {
             Section(header: Text("ENERGY CALCULATION")) {
-             
-                /*
-                Toggle("Choose mesurement Metric unit ", isOn: $isMetric)
-                    .onChange(of: isMetric) { value in
-                        if value {
-                            myEnergy.metricUnit = "mts"
-                                    print(value)
-                            print(myEnergy.metricUnit)
-                        } else {
-                            myEnergy.metricUnit = ""
-                                    print(value)
-                            print(myEnergy.metricUnit)
-                        }
-                    }
-                */
-           
+            
                 HStack {
                     Text("Building Width: ")
                     Text(makeSpace(mytex: myBuild.BuildWidth) + "  " + myEnergy.metricUnit).background(.ultraThickMaterial)
@@ -185,7 +165,6 @@ struct EnergyView: View {
                 HStack {
                 Text("Ekonomisk besparing på 30")
                 Spacer()
-                    //Text(String(Int(myEnergy.theEnergySave30years)!.formattedWithSeparator) + " SEK")
                     Text(String(Int(newLet30)!.formattedWithSeparator) + " SEK")
                 }
                 
