@@ -109,6 +109,8 @@ Here the user can add to the proposal: a discount, terms, notes, hide the detail
 ### 3.5.4 Proposal total
 Here the user displays the total value (Subtotal - discount) of the proposal.
 
+![productscopy](https://user-images.githubusercontent.com/7523384/211531394-49165872-8c8e-4df2-a25a-3efcf8882fc7.png)
+
 ### 3.6 Save Energy Calculatio
 This screen calculates the proposal that will be sent to the client, this must be confirmed by the executive and then it is saved. Contains 3 sections:
 
@@ -124,7 +126,6 @@ Here the user enters the energy consumption of the property and obtains the ener
 
 ### 3.6.3 Economy 
 Here the user visualizes the energy savings valued in Swedish kronor (SEK) and confirms the value of the proposal.
-![productscopy](https://user-images.githubusercontent.com/7523384/211531394-49165872-8c8e-4df2-a25a-3efcf8882fc7.png)
 
 ### 3.7 Save Energy Calculation
 This screen shows the user the proposal that will be sent to the client (Scroll the document). Contains 3 buttons:
