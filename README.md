@@ -60,7 +60,13 @@ To read data in Google Sheets , the app makes a GET API call to the servicehttps
 ### 3.1 Customers
 This screen shows the customer information that is going to be completed by the executive.
 
-It contains 3 important sections: Customer Information Form, BD customer information and New Customers.
+It contains 3 important sections: 
+
+- Customer Information Form
+- BD customer information 
+- New Customers(from Google Sheets)
+
+![1 Customer copy](https://user-images.githubusercontent.com/7523384/211534375-353a4a6f-86d5-4925-bc22-168974ab6251.png)
 
 ### 3.2 Construction Information (Byggnad)
 
@@ -71,6 +77,9 @@ Here the user registers the information of the client's property, filling in eac
 
 This screen shows the information of the client's problems, this must be completed by the executive.
 Here the user registers the information of the problems of the property, filling each one of the fields.
+
+![kundercopy](https://user-images.githubusercontent.com/7523384/211533677-f336f9af-285c-4f0f-a1c1-2a31447647c0.png)
+
 
 ## Graphic component
 
