@@ -147,11 +147,14 @@ This screen shows the user the proposal that will be sent to the client (Scroll 
 
 ![PDF Preview copy](https://user-images.githubusercontent.com/7523384/211531442-0bd27f8e-d457-4745-907a-25b8426e8383.png)
 
+Share proposal 
+
+![SharePDF copy](https://user-images.githubusercontent.com/7523384/211531448-26eb5d0e-e792-4eb1-8ebb-5590b6c61f65.png)
 
 ### 3.8 Settings
 This screen displays the user's information and allows it to be edited on the form.
 
-![SharePDF copy](https://user-images.githubusercontent.com/7523384/211531448-26eb5d0e-e792-4eb1-8ebb-5590b6c61f65.png)
+
 
 
 
