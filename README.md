@@ -5,12 +5,11 @@ Ency App is an IOS APP for the creation of sales proposals, integrated with Zoho
 The final proposal is a PDF file that is sent to the client.
 Internal storage by Core Data, Developed in Swift UI.
 
-![Ency App diagram](https://drive.google.com/file/d/1-Nm6mUyhd0rKW-qU8fm2q7Id_TsMeSKS/view?usp=sharing)
-
+<img src="https://user-images.githubusercontent.com/7523384/211507440-8059a93c-cf56-4b0d-8d16-dac62d3479f3.png" alt="drawing" width="400"/>
 
 App preview
 
-Customer information
-[![Ency App preview 1](https://imgur.com/QlfSRVn)](https://vimeo.com/787838766 "App customer information - Click to Watch")
-
+- Customer Information
+- Graphic component
+- Proposal generation
 
