@@ -21,11 +21,16 @@ Calculate energy savings effortlessly and save proposals as PDFs, offering conve
 ## 2. Data integration, read and storage:
 
 ### 2.1 Integration:
+The App seamlessly connects with Zoho and automatically generates proposals within Zoho Books. 
+Each proposal is created as a new entry in the draft section of Zoho Books, ensuring a streamlined and organized workflow.
+With this integration, users can effortlessly create and manage their proposals within the familiar environment of Zoho Books.
 
-The integration to Zoho Books is done in 2 steps:
+- The integration with Zoho Books is achieved through the use of REST API. 
+This allows the App to securely communicate and exchange data with Zoho Books, enabling functionalities such as creating proposals, accessing customer records, and managing draft sections. 
 
-- In the first step, the App sends the proposal information to Zapier via hooks through a POST call.
-- In the second step Zapier connects with Zoho and creates the proposal in Books, creating a new proposal in the draft.
+- See Zoho Book API [here](https://www.zoho.com/books/api/v3/introduction/#organization-id). 
+- Zoho REST APIs uses the OAuth 2.0 protocol to authorize and authenticate calls,more information [here](https://www.zoho.com/books/api/v3/oauth/#overview).
+
 
 ### 2.2 Read Data
 
