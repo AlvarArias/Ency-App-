@@ -150,7 +150,8 @@ This screen displays the user's information and allows it to be edited on the fo
 ## App overview
 ![Ency_Doc_Diagram2](https://github.com/AlvarArias/Ency-App-/assets/7523384/2123781b-820c-40e5-9b8d-399d8566ba09)
 
-
+## Classes diagrams
+[Diagrams](Clases_diagram.md)
 
 
 
