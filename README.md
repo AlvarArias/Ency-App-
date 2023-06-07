@@ -1,4 +1,7 @@
+
+![newENCY](https://github.com/AlvarArias/Ency-App-/assets/7523384/42a9a82a-9c74-415f-a7d4-603fba6f96ff)
 # Ency-App
+
 This repository describes the main components of the Ency App project
 
 Ency App is an IOS APP for the creation of sales proposals, integrated with Zoho Books and Google Sheets.
