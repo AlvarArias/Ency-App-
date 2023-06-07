@@ -48,10 +48,6 @@ With a user-friendly sharing module, the application facilitates easy sharing of
 
 The application offers seamless creation and retrieval of information for new users. By leveraging Core Data, the app efficiently manages the process of reading and saving essential user details, ensuring a smooth experience and effective data management.
 
-
-## App overview
-![Ency_Doc_Diagram2](https://github.com/AlvarArias/Ency-App-/assets/7523384/2123781b-820c-40e5-9b8d-399d8566ba09)
-
 ## App screens
 
 ### 3.1 Customers
@@ -150,6 +146,9 @@ Share proposal
 
 ### 3.8 Settings
 This screen displays the user's information and allows it to be edited on the form.
+
+## App overview
+![Ency_Doc_Diagram2](https://github.com/AlvarArias/Ency-App-/assets/7523384/2123781b-820c-40e5-9b8d-399d8566ba09)
 
 
 
