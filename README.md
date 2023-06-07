@@ -34,20 +34,19 @@ This allows the App to securely communicate and exchange data with Zoho Books, e
 
 ### 2.2 Read Data
 
-The application reads data from JSON format files (these are part of the application), to show the complete list of customers and the list of products.
+The application efficiently retrieves data from JSON format files, which are an integral part of the application. This functionality enables the display of a comprehensive list of customers and products, providing users with essential information.
 
 ### 2.3 Record data
 
-The application records backup data for each proposal created, using Core Data,
-These data are recorded on the iPad.
+To ensure data security and backup, the application utilizes Core Data for recording essential information associated with each created proposal. These backup data are stored locally on the iPad, allowing users to retrieve and restore information as needed.
 
 ### 2.4 Sharing data
 
-The application shares data of the proposal created in PDF file, using a module that allows you to send this file to other applications available in the app, for example: gmail, Print, Notes.
+With a user-friendly sharing module, the application facilitates easy sharing of proposals in PDF format. Users can seamlessly send the generated proposal files to various available applications on the device, including popular options like Gmail, Print, and Notes.
 
-### 2.5 Read data from Google Sheets:
+### 2.5 Creation and read information of new users:
 
-To read data in Google Sheets , the app makes a GET API call to the servicehttps://sheetson.com and this is connected to the Google Sheets spreadsheet with the information of the new users.
+The application offers seamless creation and retrieval of information for new users. By leveraging Core Data, the app efficiently manages the process of reading and saving essential user details, ensuring a smooth experience and effective data management.
 
 
 ## App preview
