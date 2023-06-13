@@ -57,7 +57,7 @@ It contains 3 important sections:
 
 - Customer Information Form
 - BD customer information 
-- New Customers(from Google Sheets)
+- New Customers(Core Data)
 
 ![1 Customer copy](https://user-images.githubusercontent.com/7523384/211534375-353a4a6f-86d5-4925-bc22-168974ab6251.png)
 
