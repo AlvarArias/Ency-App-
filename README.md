@@ -154,6 +154,69 @@ This screen displays the user's information and allows it to be edited on the fo
 ## Classes diagrams
 [Classes_diagram.md](https://github.com/AlvarArias/Ency-App-/blob/7de54ef5a0bbfc81d72dfe3c8d1d7775370517ae/Classes%20diagram.md)
 
+## Data arquitecture
+This is the collection of data objects utilized within the app:
+
+- @EnvironmentObject. 
+An environment object is an observable object that can be accessed by any view within a view hierarchy. By making an object an environment object, you can easily share it with all of the views that need to access it.
+
+```
+    @EnvironmentObject var prospects: Prospects
+```
+
+- @StateObject.
+A state object is a type of observable object that is owned by a single view. This means that it can only be accessed by that view and its child views.
+```
+ @State var usernameDate : Date = Date()
+```
+
+- @ObservableObject
+Is a protocol that defines an object that can be observed. When the state of an observable object changes, it sends notifications to its observers. SwiftUI uses this concept to automatically update the UI when the state changes.
+
+```
+class Prospects: ObservableObject {
+    @Published var people: [Prospect]
+    .....
+
+```
+
+- @Binding.
+A binding is a two-way connection between a property in one view and a property in another view.
+```
+  @Binding var newSelectedIndex: String
+```
+
+
+## Data patterns
+- The use App the Singleton design pattern is a creational pattern that ensures only one instance of a class is created and provides global access to that instance. 
+- In SwiftUI, you can implement the Singleton pattern using an ObservableObject.
+
+### Example of the pattern used in the App: 
+
+```
+class SelectedProductSingleton : ObservableObject {
+    static let shared = SelectedProductSingleton()
+    @Published var name = ""
+    @Published var description = ""
+    @Published var rate : Double = 0.0
+    @Published var quantity : Double = 0.0
+    @Published var discount : Float = 0.0
+    @Published var notes = ""
+    @Published var terms = ""
+    @Published var shippingCharge = ""
+    
+    private init() { }
+}
+```
+
+By using the Singleton data pattern in SwiftUI, you can easily share and access a single instance of a class across different views and components in your app.
+
+## External libraries
+- TPPDF, is a fast PDF builder for iOS & macOS using simple commands to create advanced documents
+- FilePicker, provides a `Button` that presents a platform-native file picker that is a modern way for use in SwiftUI.
+  
+
+
 
 
 
