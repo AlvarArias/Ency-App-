@@ -22,3 +22,64 @@
 ### Here is the Core data Model:
 ![Entity](https://github.com/AlvarArias/Ency-App-/assets/7523384/be9fbdeb-4517-464c-b08d-8b33883312d8)
 
+
+### Here is View code:
+
+```
+struct CoreCustomerView: View {
+    
+    // Binding variables
+    @Binding var newSelectedIndex: String
+    @Binding var newSelectedCustomer: String
+    @Binding var newOrgNumCustomer: String
+    
+    @Environment(\.managedObjectContext) var mylist
+    
+    @FetchRequest(sortDescriptors: [
+        SortDescriptor(\.customer_name, order: .reverse)
+    ]
+    ) var products: FetchedResults<EncyEstimate>
+    
+    
+    var body: some View {
+   
+            VStack {
+            
+                List {
+                Text("Nya Kunder")
+            ForEach(products) { kunder in
+                VStack(alignment: .leading) {
+                Text(kunder.customer_name ?? "Kunder Namn")
+                Text(kunder.customer_id ?? "Kunder ID")
+                Text(kunder.customer_org_num ?? "Kunder Org Num")
+                }.onTapGesture{
+                    print("On Tap")
+                    newSelectedIndex = kunder.customer_name ?? "Kunder Namn"
+                    newSelectedCustomer = kunder.customer_id ?? "Kunder ID"
+                    newOrgNumCustomer = kunder.customer_org_num ?? "Kunder Org Num"
+                    }
+                
+                    }
+            .onDelete(perform: removeLanguages)
+                    
+                }
+   
+               EditButton()
+            }
+    
+    }
+    
+    func removeLanguages(at offsets: IndexSet) {
+        for index in offsets {
+            let producto = products[index]
+            mylist.delete(producto)
+        }
+        do {
+            try mylist.save()
+        } catch {
+            print("error to save object")
+        }
+    }
+    
+}
+```
