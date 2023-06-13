@@ -5,6 +5,7 @@
 ### Form customer information
 
 ### BD Customer information
+BD Customer information in Toga app presents a list of 3000 companies. Clicking on an item binds its data to the Form customer information. Use the search bar to find companies by name. The database is a modified JSON file extracted from customer CRM.
 
 ### New Customers
 
