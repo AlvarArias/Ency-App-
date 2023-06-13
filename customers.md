@@ -23,7 +23,7 @@
 ![Entity](https://github.com/AlvarArias/Ency-App-/assets/7523384/be9fbdeb-4517-464c-b08d-8b33883312d8)
 
 
-### Here is View code:
+### Here is code for the View "Add New Customer" :
 
 ```
 struct CoreCustomerView: View {
