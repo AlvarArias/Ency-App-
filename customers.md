@@ -9,4 +9,6 @@ Form customer information allows customers to input key details: prospect's name
 BD Customer information in Toga app presents a list of 3000 companies. Clicking on an item binds its data to the Form customer information. Use the search bar to find companies by name. The database is a modified JSON file extracted from customer CRM.
 
 ### New Customers
+![NewCustomersPage](https://github.com/AlvarArias/Ency-App-/assets/7523384/11feae19-b98e-4ba2-927b-e5a71a70cca0)
+
 
