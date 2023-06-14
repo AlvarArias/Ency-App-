@@ -88,7 +88,7 @@ Here the user can see the plan of the building that will be part of the proposal
 - Edit : Here the user can edit the building plan, must set the scale factor “Set factor”, can add a distance measurement, rotate and record the image.
 - Add product : Here the user can add products to the building plan.
 
-![Set Factor copy](https://user-images.githubusercontent.com/7523384/211532014-88fea545-8908-499a-a266-8f85aaa0b494.png)
+[Graphic View](https://github.com/AlvarArias/Ency-App-/blob/main/graph.md)
 
 ## Proposal generation
 
