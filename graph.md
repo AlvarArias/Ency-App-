@@ -50,8 +50,78 @@ This screen presents the building plan related to the proposal. Its main functio
 #### Geometry View
 ![GeometryView](https://github.com/AlvarArias/Ency-App-/assets/7523384/aca2d861-b5b3-40dc-975c-896b56f717f8)
 
+```
+struct GeometryView: View {
+    
+    //MARK: @Binding State
+    @State private var data = false
+ 
+    // MARK: State
+    @State private var showingProduct = false
+    @State private var showingEdit = false
+    @State private var showingInfo = false
+    @State private var showButtonBar = false
+
+    var body: some View {
+        GeometryReader { geometry in
+            
+            ZStack (alignment: .trailing) {
+        
+                myBackgroundView(isPdfSelected: $data, viewModel: modelView() )
+
+```
+
 
 #### BackgroundView
 ![BackgroundView](https://github.com/AlvarArias/Ency-App-/assets/7523384/86a3025b-afe3-41ce-a259-6fa61a26f51c)
 
+```
+struct myBackgroundView: View {
+
+    // MARK: Env Object
+    @EnvironmentObject var prospects: Prospects
+    
+    
+    // MARK: Singeltons
+    @StateObject var myEditSetting = EditSingleton.shared
+    @StateObject var drawSettings = DrawingUserSettings()
+    @StateObject var theFactor = FactorSingleton.shared
+    
+    // MARK: Zoom gesture
+    @GestureState var magnifyBy = 1.0
+    
+    // MARK: Binding Variables
+    @Binding var isPdfSelected: Bool
+    
+    // MARK: State variables
+    // Graphics
+    @State private var imageScaleAmount = 0.0
+    // PDF
+    @State private var urlOfPdf = Bundle.main.url(forResource: "test1", withExtension: "pdf")!
+    @State private var isPdfLoad = false
+    @State private var presentimporter = false
+    @State private var pdfFileName = "Example3.jpg"
+    @State private var savePdfToIpadStorage = false
+    @State private var selectedPage = "1"
+    @State private var isPageSelected = false
+    @State private var maxPages = 1
+    @State private var showPDFKit = true
+    @State private var showPDFScroll = false
+    @State private var isCleanCircle = true
+    
+   
+    // MARK: Local variables
+    var documentsUrl: URL {
+        return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!}
+    
+    // Save image
+    @State private var pdfImage: Data?
+    
+    // Save Img to user defaults
+    @State private var distanceViewImage: UIImage? // Image variable
+    
+    // View modell
+    @ObservedObject var viewModel: modelView
+    
+```
 
