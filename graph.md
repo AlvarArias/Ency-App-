@@ -13,8 +13,14 @@ This screen presents the building plan related to the proposal. Its main functio
 - Adding products
 
 
-### 3.4.1 Drawing
-- Here the user can see the plan of the building that will be part of the proposal.
+### 3.4.1 Create Proposal Drawing 
+
+- Setting factor: Generates a conversion factor to proportionally convert pixels on the view to measurements on the building plan.
+- Adding products according to the flexible diameter and proportional placement on the building plan.
+
+![SetFactor_AdobeExpress](https://github.com/AlvarArias/Ency-App-/assets/7523384/8aeb97c2-7642-43c4-9b31-ca91f1e7b7ff)
+
+[Vimeo](https://vimeo.com/836076743?share=copy)
 
 ### 3.4.2 Customer information
 
