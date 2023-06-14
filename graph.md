@@ -26,17 +26,20 @@ This screen presents the building plan related to the proposal. Its main functio
 
 - Customer information.
 
- ![customerInfo](https://github.com/AlvarArias/Ency-App-/assets/7523384/1a8cb5d1-575c-47c6-b7da-927a6d0854de)
-
+<img src="https://github.com/AlvarArias/Ency-App-/assets/7523384/1a8cb5d1-575c-47c6-b7da-927a6d0854de" alt="Customert info" height="400">
+<br>
 
 - Edit : Here the user can edit the building plan, must set the scale factor “Set factor”, can add a distance measurement, rotate and record the image.
 
-  ![Set Factor](https://github.com/AlvarArias/Ency-App-/assets/7523384/d2c0865b-cd05-4eff-8ad2-d0fdea71e46e)
+<br>
+<img src="https://github.com/AlvarArias/Ency-App-/assets/7523384/d2c0865b-cd05-4eff-8ad2-d0fdea71e46e" alt="Edit info" height="400">
+<br>
 
-  
 - Add product : Here the user can add products to the building plan.
-
-  ![Select Product](https://github.com/AlvarArias/Ency-App-/assets/7523384/971ce8ba-4611-424b-812c-85915b481203)
+  
+<br>
+<img src="https://github.com/AlvarArias/Ency-App-/assets/7523384/971ce8ba-4611-424b-812c-85915b481203" alt="Add product" height="400">  
+<br>
 
 ### Views diagrams:
 
