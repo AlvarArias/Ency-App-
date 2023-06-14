@@ -2,7 +2,7 @@
 ![newENCY](https://github.com/AlvarArias/Ency-App-/assets/7523384/42a9a82a-9c74-415f-a7d4-603fba6f96ff)
 # Ency-App
 This repository provides an overview of the key components of the Ency App project. 
-Ency App is a powerful iOS application designed for creating sales proposals and seamlessly integrated with Zoho Books. 
+Ency App is a powerful iOS application for Ipad, designed for creating sales proposals and seamlessly integrated with Zoho Books. 
 The generated proposals are conveniently delivered to clients as PDF files. 
 The app utilizes Core Data for efficient internal storage and is developed using Swift UI.
 
@@ -215,8 +215,25 @@ By using the Singleton data pattern in SwiftUI, you can easily share and access 
 - TPPDF, is a fast PDF builder for iOS & macOS using simple commands to create advanced documents
 - FilePicker, provides a `Button` that presents a platform-native file picker that is a modern way for use in SwiftUI.
   
+## Testing App perforance.
+I leveraged Xcode Instruments to meticulously analyze the performance of the app, uncovering potential memory issues. Xcode Instruments is renowned for its exceptional capabilities as a powerful and versatile performance-analysis and testing tool.
 
 
+## Next stepts
+In order to enhance the user experience, the upcoming stages of app development need tohave a strong emphasis on simplifying the UI and optimizing app memory performance. To achieve these objectives, the following actions should be implemented:
+
+- Develop a cross-platform application that caters to both iOS and macOS users, expanding its reach and usability.
+- Transition the app into a Document-Based App model, streamlining file management for users and enhancing overall ease of use.
+- Revamp the user interface, prioritizing simplicity and intuitiveness, to ensure a seamless and enjoyable user experience.
+- Incorporate a size validation function for PDF files, preventing the upload of excessively large files and optimizing storage efficiency.
+- Enhance the Drawing screen by updating the app to iOS 16 and utilizing native View to Image conversion, harnessing the latest iOS features for improved performance and functionality.
+  
+## Technical description
+- Swift version: 5.5
+- IOS version: 15.5
+- Executable size: 105MB
+
+  
 
 
 
