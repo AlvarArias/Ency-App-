@@ -225,7 +225,6 @@ In order to enhance the user experience, the upcoming stages of app development 
 - Develop a cross-platform application that caters to both iOS and macOS users, expanding its reach and usability.
 - Transition the app into a Document-Based App model, streamlining file management for users and enhancing overall ease of use.
 - Revamp the user interface, prioritizing simplicity and intuitiveness, to ensure a seamless and enjoyable user experience.
-- Incorporate a size validation function for PDF files, preventing the upload of excessively large files and optimizing storage efficiency.
 - Enhance the Drawing screen by updating the app to iOS 16 and utilizing native View to Image conversion, harnessing the latest iOS features for improved performance and functionality.
 - Integrate the latest charts framework, now available for iOS 16, into the app to enhance its visual appeal and provide users with captivating and informative data visualization.
   
