@@ -8,10 +8,9 @@ This screen presents the building plan related to the proposal. Its main functio
 - Viewing customer information
 - Adding products
 
-[![Loading PDF](https://github.com/AlvarArias/Ency-App-/assets/7523384/fcec55fa-3441-4514-b84b-5f84281d2f5b)]("https://vimeo.com/836053068?share=copy")
+![SelectPDFok_AdobeExpress-2](https://github.com/AlvarArias/Ency-App-/assets/7523384/a1a32945-2234-4e4b-a2a9-c88bb824baa5)
 
-![Simulator Screen Shot - iPad Air (5th generation) - 2023-06-14 at 08 40 32](https://github.com/AlvarArias/Ency-App-/assets/7523384/fcec55fa-3441-4514-b84b-5f84281d2f5b)
-
+[Vimeo](https://vimeo.com/836053068?share=copy)
 
 ### 3.4.1 Drawing
 - Here the user can see the plan of the building that will be part of the proposal.
