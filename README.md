@@ -17,36 +17,8 @@ With Ency App, manipulate client-provided plans, generate new plans showcasing i
 
 Calculate energy savings effortlessly and save proposals as PDFs, offering convenient sharing via email or printing. 
 
-
-## Data integration, read and storage:
-
-### Integration:
-The App seamlessly connects with Zoho and automatically generates proposals within Zoho Books. 
-Each proposal is created as a new entry in the draft section of Zoho Books, ensuring a streamlined and organized workflow.
-With this integration, users can effortlessly create and manage their proposals within the familiar environment of Zoho Books.
-
-- The integration with Zoho Books is achieved through the use of REST API. 
-This allows the App to securely communicate and exchange data with Zoho Books, enabling functionalities such as creating proposals, accessing customer records, and managing draft sections. 
-
-- See Zoho Book API [here](https://www.zoho.com/books/api/v3/introduction/#organization-id). 
-- Zoho REST APIs uses the OAuth 2.0 protocol to authorize and authenticate calls,more information [here](https://www.zoho.com/books/api/v3/oauth/#overview).
-
-
-### Read Data
-
-The application efficiently retrieves data from JSON format files, which are an integral part of the application. This functionality enables the display of a comprehensive list of customers and products, providing users with essential information.
-
-### Record data
-
-To ensure data security and backup, the application utilizes Core Data for recording essential information associated with each created proposal. These backup data are stored locally on the iPad, allowing users to retrieve and restore information as needed.
-
-### Sharing data
-
-With a user-friendly sharing module, the application facilitates easy sharing of proposals in PDF format. Users can seamlessly send the generated proposal files to various available applications on the device, including popular options like Gmail, Print, and Notes.
-
-### Creation and read information of new users:
-
-The application offers seamless creation and retrieval of information for new users. By leveraging Core Data, the app efficiently manages the process of reading and saving essential user details, ensuring a smooth experience and effective data management.
+## App overview
+![Ency_Doc_Diagram2](https://github.com/AlvarArias/Ency-App-/assets/7523384/2123781b-820c-40e5-9b8d-399d8566ba09)
 
 ## App screens
 
@@ -57,6 +29,17 @@ The application offers seamless creation and retrieval of information for new us
 - [Proposal generation](#proposal-generation)
 - [Save Energy Calculation](#save-energy-calculation)
 - [Settings](#settings)
+
+## App description
+
+- [Data integration, read and storage](#data-integration-read-and-storage)
+- [Data arquitecture](#data-arquitecture)
+- [Data patterns](#data-patterns)
+- [External libraries](#external-libraries)
+- [Testing App performance](#testing-app-performance)
+- [Next steps](#next-steps)
+- [Technical description](#technical-description)
+  
 
 ## Customers
 This screen shows the customer information that is going to be completed by the executive.
@@ -156,8 +139,36 @@ Share proposal
 ## Settings
 This screen displays the user's information and allows it to be edited on the form.
 
-## App overview
-![Ency_Doc_Diagram2](https://github.com/AlvarArias/Ency-App-/assets/7523384/2123781b-820c-40e5-9b8d-399d8566ba09)
+
+## Data integration, read and storage
+
+### Integration:
+The App seamlessly connects with Zoho and automatically generates proposals within Zoho Books. 
+Each proposal is created as a new entry in the draft section of Zoho Books, ensuring a streamlined and organized workflow.
+With this integration, users can effortlessly create and manage their proposals within the familiar environment of Zoho Books.
+
+- The integration with Zoho Books is achieved through the use of REST API. 
+This allows the App to securely communicate and exchange data with Zoho Books, enabling functionalities such as creating proposals, accessing customer records, and managing draft sections. 
+
+- See Zoho Book API [here](https://www.zoho.com/books/api/v3/introduction/#organization-id). 
+- Zoho REST APIs uses the OAuth 2.0 protocol to authorize and authenticate calls,more information [here](https://www.zoho.com/books/api/v3/oauth/#overview).
+
+
+### Read Data
+
+The application efficiently retrieves data from JSON format files, which are an integral part of the application. This functionality enables the display of a comprehensive list of customers and products, providing users with essential information.
+
+### Record data
+
+To ensure data security and backup, the application utilizes Core Data for recording essential information associated with each created proposal. These backup data are stored locally on the iPad, allowing users to retrieve and restore information as needed.
+
+### Sharing data
+
+With a user-friendly sharing module, the application facilitates easy sharing of proposals in PDF format. Users can seamlessly send the generated proposal files to various available applications on the device, including popular options like Gmail, Print, and Notes.
+
+### Creation and read information of new users:
+
+The application offers seamless creation and retrieval of information for new users. By leveraging Core Data, the app efficiently manages the process of reading and saving essential user details, ensuring a smooth experience and effective data management.
 
 ## Classes diagrams
 [Classes_diagram.md](https://github.com/AlvarArias/Ency-App-/blob/7de54ef5a0bbfc81d72dfe3c8d1d7775370517ae/Classes%20diagram.md)
