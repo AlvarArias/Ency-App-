@@ -1,6 +1,8 @@
+<p align="center">
+  <img src="https://github.com/AlvarArias/Ency-App-/assets/7523384/42a9a82a-9c74-415f-a7d4-603fba6f96ff" height="200">
+  <h1 align="center">Ency App for iOS</h1>
+</p>
 
-![newENCY](https://github.com/AlvarArias/Ency-App-/assets/7523384/42a9a82a-9c74-415f-a7d4-603fba6f96ff)
-# Ency-App
 This repository provides an overview of the key components of the Ency App project. 
 Ency App is a powerful iOS application for Ipad, designed for creating sales proposals and seamlessly integrated with Zoho Books. 
 The generated proposals are conveniently delivered to clients as PDF files. 
