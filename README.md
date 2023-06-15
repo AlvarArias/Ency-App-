@@ -8,7 +8,7 @@ The app utilizes Core Data for efficient internal storage and is developed using
 
 ![EncyMainDiagram drawio](https://github.com/AlvarArias/Ency-App-/assets/7523384/28ae4459-262c-497e-8456-c1916467abf5)
 
-## 1. Introduction: 
+## Introduction: 
 Introducing Ency App, tool for sales agents to create business proposals with ease. 
 
 Integrated with Zoho Books, this application generates "Draft Proposals" while accessing a comprehensive customer database of over 3,000 records, complete with full names and organization numbers. 
@@ -18,9 +18,9 @@ With Ency App, manipulate client-provided plans, generate new plans showcasing i
 Calculate energy savings effortlessly and save proposals as PDFs, offering convenient sharing via email or printing. 
 
 
-## 2. Data integration, read and storage:
+## Data integration, read and storage:
 
-### 2.1 Integration:
+### Integration:
 The App seamlessly connects with Zoho and automatically generates proposals within Zoho Books. 
 Each proposal is created as a new entry in the draft section of Zoho Books, ensuring a streamlined and organized workflow.
 With this integration, users can effortlessly create and manage their proposals within the familiar environment of Zoho Books.
@@ -32,25 +32,33 @@ This allows the App to securely communicate and exchange data with Zoho Books, e
 - Zoho REST APIs uses the OAuth 2.0 protocol to authorize and authenticate calls,more information [here](https://www.zoho.com/books/api/v3/oauth/#overview).
 
 
-### 2.2 Read Data
+### Read Data
 
 The application efficiently retrieves data from JSON format files, which are an integral part of the application. This functionality enables the display of a comprehensive list of customers and products, providing users with essential information.
 
-### 2.3 Record data
+### Record data
 
 To ensure data security and backup, the application utilizes Core Data for recording essential information associated with each created proposal. These backup data are stored locally on the iPad, allowing users to retrieve and restore information as needed.
 
-### 2.4 Sharing data
+### Sharing data
 
 With a user-friendly sharing module, the application facilitates easy sharing of proposals in PDF format. Users can seamlessly send the generated proposal files to various available applications on the device, including popular options like Gmail, Print, and Notes.
 
-### 2.5 Creation and read information of new users:
+### Creation and read information of new users:
 
 The application offers seamless creation and retrieval of information for new users. By leveraging Core Data, the app efficiently manages the process of reading and saving essential user details, ensuring a smooth experience and effective data management.
 
 ## App screens
 
-### 3.1 Customers
+- [Customers](#customers)
+- [Construction Information](#construction-information-byggnad)
+- [Customer problem information](#customer-problem-information-kunder-problem)
+- [Graphic component](#graphic-component)
+- [Proposal generation](#proposal-generation)
+- [Save Energy Calculation](#save-energy-calculation)
+- [Settings](#settings)
+
+## Customers
 This screen shows the customer information that is going to be completed by the executive.
 
 It contains 3 important sections: 
@@ -62,12 +70,12 @@ It contains 3 important sections:
 [Customers View](https://github.com/AlvarArias/Ency-App-/blob/main/customers.md)
 
 
-### 3.2 Construction Information (Byggnad)
+## Construction Information (Byggnad)
 
 This screen shows the information of the client's property, this must be completed by the executive.
 Here the user registers the information of the client's property, filling in each one of the fields.
 
-### 3.3 Customer problem information (Kunder problem)
+## Customer problem information (Kunder problem)
 
 This screen shows the information of the client's problems, this must be completed by the executive.
 Here the user registers the information of the problems of the property, filling each one of the fields.
@@ -92,7 +100,7 @@ Here the user can see the plan of the building that will be part of the proposal
 
 ## Proposal generation
 
-### 3.5 Products
+### Products
 This screen calculates the proposal that will be sent to the client, this must be confirmed by the executive and then it is saved. Contains 4 sections:
 
 - Product List
@@ -100,21 +108,21 @@ This screen calculates the proposal that will be sent to the client, this must b
 - Discount and notes 
 - Proposal total
 
-### 3.5.1 Product List
+### Product List
 Here the user selects the products that will be part of the costs of the proposal.
 
-### 3.5.2 Proposal Cost
+### Proposal Cost
 Here the user views the complete list of products and obtains the subtotal of the proposal.
 
-### 3.5.3 Discount and notes 
+### Discount and notes 
 Here the user can add to the proposal: a discount, terms, notes, hide the detailed list of the values ​​of each product and confirm the final value of the proposal.
 
-### 3.5.4 Proposal total
+### Proposal total
 Here the user displays the total value (Subtotal - discount) of the proposal.
 
 ![productscopy](https://user-images.githubusercontent.com/7523384/211531394-49165872-8c8e-4df2-a25a-3efcf8882fc7.png)
 
-### 3.6 Save Energy Calculation
+## Save Energy Calculation
 This screen calculates the proposal that will be sent to the client, this must be confirmed by the executive and then it is saved. Contains 3 sections:
 
 - Building
@@ -123,16 +131,16 @@ This screen calculates the proposal that will be sent to the client, this must b
 
 ![EnergyScreen copy](https://user-images.githubusercontent.com/7523384/211532887-c842126a-52cd-4089-a1cb-bbca5f313e44.png)
 
-### 3.6.1 Building
+### Building
 Here the user enters the information of the building that will be part of the calculation of energy savings of the proposal.
 
-### 3.6.2 Calculation
+### Calculation
 Here the user enters the energy consumption of the property and obtains the energy savings of the proposal.
 
-### 3.6.3 Economy 
+### Economy 
 Here the user visualizes the energy savings valued in Swedish kronor (SEK) and confirms the value of the proposal.
 
-### 3.7 Save Energy Calculation
+### Save Energy Calculation
 This screen shows the user the proposal that will be sent to the client (Scroll the document). Contains 3 buttons:
 
 - Save PDF
@@ -145,7 +153,7 @@ Share proposal
 
 ![SharePDF copy](https://user-images.githubusercontent.com/7523384/211531448-26eb5d0e-e792-4eb1-8ebb-5590b6c61f65.png)
 
-### 3.8 Settings
+## Settings
 This screen displays the user's information and allows it to be edited on the form.
 
 ## App overview
