@@ -36,6 +36,7 @@ Calculate energy savings effortlessly and save proposals as PDFs, offering conve
 ## App description
 
 - [Data integration, read and storage](#data-integration-read-and-storage)
+- [Classes diagrams](https://github.com/AlvarArias/Ency-App-/blob/7de54ef5a0bbfc81d72dfe3c8d1d7775370517ae/Classes%20diagram.md)
 - [Data arquitecture](#data-arquitecture)
 - [Data patterns](#data-patterns)
 - [External libraries](#external-libraries)
@@ -171,9 +172,6 @@ With a user-friendly sharing module, the application facilitates easy sharing of
 ### Creation and read information of new users:
 
 The application offers seamless creation and retrieval of information for new users. By leveraging Core Data, the app efficiently manages the process of reading and saving essential user details, ensuring a smooth experience and effective data management.
-
-## Classes diagrams
-[Classes_diagram.md](https://github.com/AlvarArias/Ency-App-/blob/7de54ef5a0bbfc81d72dfe3c8d1d7775370517ae/Classes%20diagram.md)
 
 ## Data arquitecture
 This is the collection of data objects utilized within the app:
