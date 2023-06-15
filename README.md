@@ -215,29 +215,36 @@ By using the Singleton data pattern in SwiftUI, you can easily share and access 
 - TPPDF, is a fast PDF builder for iOS & macOS using simple commands to create advanced documents
 - FilePicker, provides a `Button` that presents a platform-native file picker that is a modern way for use in SwiftUI.
   
-## Testing App perforance.
-I leveraged Xcode Instruments to meticulously analyze the performance of the app, uncovering potential memory issues. Xcode Instruments is renowned for its exceptional capabilities as a powerful and versatile performance-analysis and testing tool.
+## Testing App performance.
+I leveraged Xcode Instruments to meticulously analyze the performance of the app, uncovering potential memory issues. Xcode Instruments is renowned for its exceptional capabilities as a powerful and versatile performance analysis and testing tool.
+
+- Performance analysis
+  
+![Ency_test1](https://github.com/AlvarArias/Ency-App-/assets/7523384/8bd00570-5eaa-4087-b4fd-161ed67c973f)
+
+- Memory issues
+  
+![Ency_test2](https://github.com/AlvarArias/Ency-App-/assets/7523384/7e19d885-2917-48eb-9416-2efdd7d46f9e)
 
 
-## Next stepts
-In order to enhance the user experience, the upcoming stages of app development need tohave a strong emphasis on simplifying the UI and optimizing app memory performance. To achieve these objectives, the following actions should be implemented:
+## Next steps
+In order to enhance the user experience, the upcoming stages of app development need to have a strong emphasis on simplifying the UI and optimizing app memory performance. To achieve these objectives, the following actions should be implemented:
 
 - Develop a cross-platform application that caters to both iOS and macOS users, expanding its reach and usability.
+  
 - Transition the app into a Document-Based App model, streamlining file management for users and enhancing overall ease of use.
+  
 - Revamp the user interface, prioritizing simplicity and intuitiveness, to ensure a seamless and enjoyable user experience.
+  
 - Enhance the Drawing screen by updating the app to iOS 16 and utilizing native View to Image conversion, harnessing the latest iOS features for improved performance and functionality.
+  
 - Integrate the latest charts framework, now available for iOS 16, into the app to enhance its visual appeal and provide users with captivating and informative data visualization.
   
 ## Technical description
+
 - Swift version: 5.5
 - IOS version: 15.5
 - Executable size: 105MB
-
-  
-
-
-
-
 
 
 
