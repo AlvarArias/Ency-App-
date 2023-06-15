@@ -28,6 +28,7 @@ Calculate energy savings effortlessly and save proposals as PDFs, offering conve
 - [Construction Information](#construction-information-byggnad)
 - [Customer problem information](#customer-problem-information-kunder-problem)
 - [Graphic component](#graphic-component)
+- [Graphic View](https://github.com/AlvarArias/Ency-App-/blob/main/graph.md)
 - [Proposal generation](#proposal-generation)
 - [Save Energy Calculation](#save-energy-calculation)
 - [Settings](#settings)
@@ -81,7 +82,6 @@ Here the user can see the plan of the building that will be part of the proposal
 - Edit : Here the user can edit the building plan, must set the scale factor “Set factor”, can add a distance measurement, rotate and record the image.
 - Add product : Here the user can add products to the building plan.
 
-[Graphic View](https://github.com/AlvarArias/Ency-App-/blob/main/graph.md)
 
 ## Proposal generation
 
