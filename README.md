@@ -19,8 +19,7 @@ With Ency App, manipulate client-provided plans, generate new plans showcasing i
 
 Calculate energy savings effortlessly and save proposals as PDFs, offering convenient sharing via email or printing. 
 
-## App overview
-![Ency_Doc_Diagram2](https://github.com/AlvarArias/Ency-App-/assets/7523384/2123781b-820c-40e5-9b8d-399d8566ba09)
+
 
 ## App screens
 
@@ -35,7 +34,7 @@ Calculate energy savings effortlessly and save proposals as PDFs, offering conve
 - [Settings](#settings)
 
 ## App description
-
+- [App overview](#app-overview)
 - [Data integration, read and storage](#data-integration-read-and-storage)
 - [Classes diagrams](https://github.com/AlvarArias/Ency-App-/blob/7de54ef5a0bbfc81d72dfe3c8d1d7775370517ae/Classes%20diagram.md)
 - [Data arquitecture](#data-arquitecture)
@@ -143,6 +142,8 @@ Share proposal
 ## Settings
 This screen displays the user's information and allows it to be edited on the form.
 
+## App overview
+![Ency_Doc_Diagram2](https://github.com/AlvarArias/Ency-App-/assets/7523384/2123781b-820c-40e5-9b8d-399d8566ba09)
 
 ## Data integration, read and storage
 
