@@ -33,7 +33,7 @@ The user wants to have an app that fulfills the following functions:
 - The user need to has access to the customers datababase.
 - The app needs to have a preview of the PDF document and then provide the option to export it.    
 - The PDF file needs to be shareable with other apps (such as Gmail, a printer, etc).
-- The proposal data needs to be saved on the memory device..  
+- The proposal data needs to be saved on the memory device. 
 
 <br>
 
