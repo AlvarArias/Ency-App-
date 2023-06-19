@@ -70,6 +70,8 @@ The user wants to have an app that fulfills the following functions:
 This screen shows the information of the client's property, this must be completed by the executive.
 Here the user registers the information of the client's property, filling in each one of the fields.
 
+<img src="https://github.com/AlvarArias/Ency-App-/assets/7523384/2686f2ef-73ad-4d71-9b0f-dd1232a8a87c" alt="Settings" width="700">
+
 ## Customer problem information (Kunder problem)
 
 This screen shows the information of the client's problems, this must be completed by the executive.
