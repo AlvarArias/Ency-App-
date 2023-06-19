@@ -19,30 +19,8 @@ With Ency App, manipulate client-provided plans, generate new plans showcasing i
 
 Calculate energy savings effortlessly and save proposals as PDFs, offering convenient sharing via email or printing. 
 
+<br>
 
-
-## App screens
-
-- [Customers View](https://github.com/AlvarArias/Ency-App-/blob/main/customers.md)
-- [Construction Information](#construction-information-byggnad)
-- [Customer problem information](#customer-problem-information-kunder-problem)
-- [Graphic View](https://github.com/AlvarArias/Ency-App-/blob/main/graph.md)
-- [Proposal generation](#proposal-generation)
-- [Save Energy Calculation](#save-energy-calculation)
-- [Proposals Preview](#proposals-preview)
-- [Settings](#settings)
-
-## App description
-- [App overview](#app-overview)
-- [Data integration, read and storage](#data-integration-read-and-storage)
-- [Classes diagrams](https://github.com/AlvarArias/Ency-App-/blob/7de54ef5a0bbfc81d72dfe3c8d1d7775370517ae/Classes%20diagram.md)
-- [Data arquitecture](#data-arquitecture)
-- [Data patterns](#data-patterns)
-- [External libraries](#external-libraries)
-- [Testing App performance](#testing-app-performance)
-- [Next steps](#next-steps)
-- [Technical description](#technical-description)
-  
 ## App User requirements
 The user wants to have an app that fulfills the following functions:
 
@@ -59,6 +37,32 @@ The user wants to have an app that fulfills the following functions:
 
 <br>
 
+## App screens
+
+- [Customers View](https://github.com/AlvarArias/Ency-App-/blob/main/customers.md)
+- [Construction Information](#construction-information-byggnad)
+- [Customer problem information](#customer-problem-information-kunder-problem)
+- [Graphic View](https://github.com/AlvarArias/Ency-App-/blob/main/graph.md)
+- [Proposal generation](#proposal-generation)
+- [Save Energy Calculation](#save-energy-calculation)
+- [Proposals Preview](#proposals-preview)
+- [Settings](#settings)
+
+<br>
+
+## App description
+- [App overview](#app-overview)
+- [Data integration, read and storage](#data-integration-read-and-storage)
+- [Classes diagrams](https://github.com/AlvarArias/Ency-App-/blob/7de54ef5a0bbfc81d72dfe3c8d1d7775370517ae/Classes%20diagram.md)
+- [Data arquitecture](#data-arquitecture)
+- [Data patterns](#data-patterns)
+- [External libraries](#external-libraries)
+- [Testing App performance](#testing-app-performance)
+- [Next steps](#next-steps)
+- [Technical description](#technical-description)
+  
+
+<br>
 
 
 ## Construction Information (Byggnad)
