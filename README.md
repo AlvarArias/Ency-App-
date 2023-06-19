@@ -131,6 +131,10 @@ Contains 3 buttons:
 
 <img src="https://github.com/AlvarArias/Ency-App-/assets/7523384/7dc34fad-fa98-4cd5-9306-943749d73e4d" alt="Settings" width="700">
 
+Save PDF 
+
+<img src="https://github.com/AlvarArias/Ency-App-/assets/7523384/cc29d5e7-bc5e-4de7-93d5-5162592317e2" alt="Settings" width="700">
+
 PDF Preview
 
 ![Proposals](https://user-images.githubusercontent.com/7523384/211531442-0bd27f8e-d457-4745-907a-25b8426e8383.png)
@@ -138,6 +142,12 @@ PDF Preview
 Share proposal 
 
 ![SharePDF copy](https://user-images.githubusercontent.com/7523384/211531448-26eb5d0e-e792-4eb1-8ebb-5590b6c61f65.png)
+
+
+Energy calculation
+
+<img src="https://github.com/AlvarArias/Ency-App-/assets/7523384/8efbc03f-7972-4e6b-846f-d544660521c7" alt="Settings" width="700">
+
 
 ## Settings
 This screen displays the user's information and allows it to be edited on the form.
