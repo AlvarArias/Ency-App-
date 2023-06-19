@@ -23,7 +23,7 @@ Calculate energy savings effortlessly and save proposals as PDFs, offering conve
 
 ## App screens
 
-- [Customers](#customers)
+- [Customers View](https://github.com/AlvarArias/Ency-App-/blob/main/customers.md)
 - [Construction Information](#construction-information-byggnad)
 - [Customer problem information](#customer-problem-information-kunder-problem)
 - [Graphic component](#graphic-component)
@@ -44,17 +44,22 @@ Calculate energy savings effortlessly and save proposals as PDFs, offering conve
 - [Next steps](#next-steps)
 - [Technical description](#technical-description)
   
+## App User requirements
+The user wants to have an app that fulfills the following functions:
 
-## Customers
-This screen shows the customer information that is going to be completed by the executive.
+- Data should update across all the screens of the app. For example, if the user modifies a measurement of the height of the building, they need to see these changes reflected in the energy calculation screens and the final proposal.
+- A dynamic screen for energy calculation to help users in modeling different scenarios.
+- A graphic interface to load PDF building plans, select a plane, add fans from the product list onto the plane, choose their position on the screen, and export an image of the new plane to attach it to the final proposal.  
+- The UI element 'step-bar' is located at the bottom of the screen. It shows the customer the current step number for creating a proposal and allows them to navigate to different screens by selecting the corresponding step number.
+- The new screens display columns with user information, a list of products, and add this information to the main view by clicking on the selected elements.
+- Save the created proposal to Zoho Books, users platform for managing your accounting tasks and organizing your transactions.        
+- The user need to has access to the customers datababase.
+- The app needs to have a preview of the PDF document and then provide the option to export it.    
+- The PDF file needs to be shareable with other apps (such as Gmail, a printer, etc).
+- The proposal data needs to be saved on the memory device..  
 
-It contains 3 important sections: 
+<br>
 
-- Customer Information Form
-- BD customer information 
-- New Customers(Core Data)
-
-[Customers View](https://github.com/AlvarArias/Ency-App-/blob/main/customers.md)
 
 
 ## Construction Information (Byggnad)
