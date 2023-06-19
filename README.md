@@ -30,7 +30,7 @@ The user wants to have an app that fulfills the following functions:
 - The UI element 'step-bar' is located at the bottom of the screen. It shows the customer the current step number for creating a proposal and allows them to navigate to different screens by selecting the corresponding step number.
 - The new screens display columns with user information, a list of products, and add this information to the main view by clicking on the selected elements.
 - Save the created proposal to Zoho Books, users platform for managing your accounting tasks and organizing your transactions.        
-- The user need to has access to the customers datababase.
+- The user need to has access to the customers database.
 - The app needs to have a preview of the PDF document and then provide the option to export it.    
 - The PDF file needs to be shareable with other apps (such as Gmail, a printer, etc).
 - The proposal data needs to be saved on the memory device. 
