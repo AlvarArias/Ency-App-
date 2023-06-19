@@ -135,6 +135,7 @@ Share proposal
 
 ## Settings
 This screen displays the user's information and allows it to be edited on the form.
+<img src="https://github.com/AlvarArias/Ency-App-/assets/7523384/3bb62496-4cad-4d1f-a290-cd67569b8232" alt="Settings" width="700">
 
 ## App overview
 ![Ency_Doc_Diagram2](https://github.com/AlvarArias/Ency-App-/assets/7523384/2123781b-820c-40e5-9b8d-399d8566ba09)
