@@ -31,6 +31,7 @@ Calculate energy savings effortlessly and save proposals as PDFs, offering conve
 - [Graphic View](https://github.com/AlvarArias/Ency-App-/blob/main/graph.md)
 - [Proposal generation](#proposal-generation)
 - [Save Energy Calculation](#save-energy-calculation)
+- [Proposals Preview](#proposals-preview)
 - [Settings](#settings)
 
 ## App description
@@ -126,9 +127,9 @@ Here the user enters the energy consumption of the property and obtains the ener
 ### Economy 
 Here the user visualizes the energy savings valued in Swedish kronor (SEK) and confirms the value of the proposal.
 
-### Save Energy Calculation
-This screen shows the user the proposal that will be sent to the client (Scroll the document). Contains 3 buttons:
-
+## Proposals Preview  
+This screen shows a preview of the proposal to the user before sending it to the customer.
+Contains 3 buttons:
 - Save PDF
 - Save energy
 - Save to Zoho 
