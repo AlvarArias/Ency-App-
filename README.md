@@ -125,9 +125,13 @@ This screen shows a preview of the proposal to the user before sending it to the
 Contains 3 buttons:
 - Save PDF
 - Save energy
-- Save to Zoho 
+- Save to Zoho
 
-![PDF Preview copy](https://user-images.githubusercontent.com/7523384/211531442-0bd27f8e-d457-4745-907a-25b8426e8383.png)
+<img src="https://github.com/AlvarArias/Ency-App-/assets/7523384/7dc34fad-fa98-4cd5-9306-943749d73e4d" alt="Settings" width="700">
+
+PDF Preview
+
+![Proposals](https://user-images.githubusercontent.com/7523384/211531442-0bd27f8e-d457-4745-907a-25b8426e8383.png)
 
 Share proposal 
 
