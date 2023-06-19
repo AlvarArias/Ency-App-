@@ -11,6 +11,7 @@ This screen presents the building plan related to the proposal. Its main functio
 - Editing and saving images
 - Viewing customer information
 - Adding products
+- Exporting the JPG file of the new plane.
 
 
 ### 3.4.1 Create Proposal Drawing 
