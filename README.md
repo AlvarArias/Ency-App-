@@ -26,7 +26,6 @@ Calculate energy savings effortlessly and save proposals as PDFs, offering conve
 - [Customers View](https://github.com/AlvarArias/Ency-App-/blob/main/customers.md)
 - [Construction Information](#construction-information-byggnad)
 - [Customer problem information](#customer-problem-information-kunder-problem)
-- [Graphic component](#graphic-component)
 - [Graphic View](https://github.com/AlvarArias/Ency-App-/blob/main/graph.md)
 - [Proposal generation](#proposal-generation)
 - [Save Energy Calculation](#save-energy-calculation)
@@ -73,20 +72,6 @@ This screen shows the information of the client's problems, this must be complet
 Here the user registers the information of the problems of the property, filling each one of the fields.
 
 ![kundercopy](https://user-images.githubusercontent.com/7523384/211533677-f336f9af-285c-4f0f-a1c1-2a31447647c0.png)
-
-
-## Graphic component
-
-### 3.4 Drawings
-This screen displays the plan of the building associated with the proposal, allows you to add products, edit and save the image, and view customer information.
-
-### 3.4.1 Drawing
-Here the user can see the plan of the building that will be part of the proposal.
-
-### 3.4.2 Customer information
-- Customer information.
-- Edit : Here the user can edit the building plan, must set the scale factor “Set factor”, can add a distance measurement, rotate and record the image.
-- Add product : Here the user can add products to the building plan.
 
 
 ## Proposal generation
